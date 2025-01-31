@@ -47,4 +47,4 @@ def get_userId(user_id):
     else:
         return jsonify({"error": "Usuario no encontrado"}), 404
 
-app.run()
+handle=app
